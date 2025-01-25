@@ -1,10 +1,10 @@
 package game;
 
-public class GameResult {
+public class GameState {
     private boolean gameOver;
     private String winner;
 
-    public GameResult(boolean gameOver, String winner) {
+    public GameState(boolean gameOver, String winner) {
         this.gameOver = gameOver;
          this.winner = winner;
     }
